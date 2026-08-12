@@ -1,5 +1,167 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+body {
+	background-color: rgb(43, 43, 43);
+	font-family: "Special Elite", system-ui;
+	color: whitesmoke;
+	overflow-x: hidden;
+}
+p {
+	margin: 3rem;
+}
+
+h1 {
+	font-family: "Protest Revolution", sans-serif;
+	font-size: 5rem;
+	color: whitesmoke;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: -20px;
+	margin-right: 50px;
+}
+
+h2 {
+	margin-left: 300px;
+	margin-top: 20px;
+}
+
+section {
+	max-height: 50px;
+	margin: 0px;
+}
+
+div {
+	padding: 15px;
+	margin: 10px;
+	align-content: baseline;
+}
+
+.col-7 {
+	background-color: rgb(10, 10, 10);
+	margin-left: -30px;
+}
+
+.col-3 {
+	text-align: center;
+	color:rgb(43, 43, 43);
+	size: 5rem;
+	background-color: rgb(150, 148, 145);
+}
+
+h3 {
+	text-decoration-line: underline;
+}
+
+.header {
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/Final1-banner.png);
+  background-size: auto;
+}
+
+.nav button {
+	margin-right: 5px;
+}
+
+
+
+.p2 {
+	color:rgb(120, 8, 8);
+
+	background-color: rgb(224, 223, 230);
+	background-image: url("../img/Final1-p2.png");
+	background-position-x: center;
+	background-position-y: left;
+	background-repeat: no-repeat;
+}
+
+.p2 a {
+	text-decoration: none;
+	color:black;
+}
+
+.page3 {
+	color:rgb(43, 43, 43);
+	text-align: center;
+	background-color: rgb(224, 223, 230);
+	background-image: url("../img/Final1-p3.png");
+	background-position-x: center;
+	background-position-y: left;
+	background-repeat: no-repeat;
+}
+
+.page3l {
+	color:rgb(43, 43, 43);
+	background-color: rgb(224, 223, 230);
+	background-image: url("../img/Final1-p3.5L.png");
+	background-position-x: center;
+	background-position-y: left;
+	background-repeat: no-repeat;
+}
+
+.page3l a {
+	text-decoration: none;
+	color:rgb(118, 106, 106);
+}
+
+.page3a {
+	color:rgb(43, 43, 43);
+	background-color: rgb(224, 223, 230);
+	background-image: url("../img/Final1-p3.5a.png");
+	background-position-x: center;
+	background-position-y: left;
+	background-repeat: no-repeat;
+}
+
+.page3a a {
+	text-decoration: none;
+	color:rgb(214, 193, 173);
+}
+
+.page4 {
+	color:rgb(43, 43, 43);
+	margin-left: 7rem;
+	background-color: rgb(224, 223, 230);
+	background-image: url("../img/Final1-p4.png");
+	background-position-x: center;
+	background-position-y: left;
+	background-repeat: no-repeat;
+}
+
+.page4 a {
+	text-decoration: none;
+	color:rgba(214, 193, 173, 0.473);
+}
+
+.page5 {
+	color:rgb(43, 43, 43);
+	margin-left: 7rem;
+	background-color: rgb(224, 223, 230);
+	background-image: url("../img/Final1-p5.png");
+	background-position-x: center;
+	background-position-y: left;
+	background-repeat: no-repeat;
+}
+
+.page5 a {
+	text-decoration: none;
+	color:rgba(214, 193, 173, 0.473);
+}
+
+.pg6 {
+	color:rgb(43, 43, 43);
+	background-color: rgb(224, 223, 230);
+	background-image: url("../img/Final1-p6,7.png");
+	background-position-x: center;
+	background-position-y: left;
+	background-repeat: no-repeat;
+}
+
+.pg7 {
+	color:rgb(43, 43, 43);
+	background-color: rgb(224, 223, 230);
+	background-image: url("../img/Final1-p6,7.png");
+	background-position-x: center;
+	background-position-y: left;
+	background-repeat: no-repeat;
 }
